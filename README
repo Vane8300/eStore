@@ -1,0 +1,43 @@
+Cerinta 1.1 
+Pentru clasa Product.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, constructor de copiere
+Pentru clasa FoodProduct.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, constructor de copiere
+Pentru clasa NonFoodProduct.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, operator==, constructor de copiere
+Pentru clasa DiscountedProduct.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, dar si o metoda care-mi returneaza pretul redus, constructor de copiere
+Pentru clasa ReturnedProduct.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, constructor de copiere
+Pentru clasa ResealedProduct.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, constructor de copiere
+
+Cerinta 1.2
+Pentru clasa Address.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, operator==, operator!=, operator<<,constructor de copiere
+Pentru clasa User.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, constructor de copiere
+Pentru clasa BasicUSer.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere,constructor de copiere
+Pentru clasa PremiumUser.h am implementat: constructor cu parametrii, constructor fara parametrii, operator=, set-ere si get-ere, constructor de copiere
+
+Cerinta 1.3 
+Pentru clasa ShoppingCart.h am implementat: constructor cu parametrii, constructor fara parametrii, set-ere si get-ere, dar si metode prin care am manipulat cantitatea
+
+Cerinta 2
+Pentru clasa Server.h am implementat: constructor fara parametrii, set-ere si get-ere
+
+Cerinta 3 a)
+Pentru a obtine espressoare reduse, am parcurs lista de produse si am verificat daca aceastea indeplinesc cele 2 conditii si anume: sa fie de tip redus si din categoria espressor, iar mai apoi le-am bagat intr-o lista special desemnata pentru acestea, pe care am returnat o ulterior
+
+Cerinta 3 b)
+Pentru a obtine toti utilizatorii cu un cost de transport redus si sunt nevoiti sa plateasca un cost pentru transpor <= 11.5, am parcurs lista de utilizatori si am verificat care utilizatori sunt de tip BasicUser si au un cost de transport <=11.5. Pe acestia i-am bagat intr-o lista special desemnata pentru ei, pe care am returnat-o.
+
+Cerinta 3 c)
+Pentru a gasi toate produsele resigilate cu motivul "lipsa_accesorii", am parcurs lista de produse si am verificat daca acestea sunt resigilate pe motivul "lipsa_accesorii", toate aceste produse au fost adaugate intr-o lista, pe care am ordonat-o crescator folosind functia compare implementata in clasa Utility.h, iar in final am returnat lista de produse resigilate cu motivul aferent, sortata.
+
+Cerinta 3 d)
+Pentru a gasit toate produsele alimentare am cautat in lista de produse si le-am adaugat pe cele care respectau aceasta conditie intr-o alta lista, pe care am sortat-o folosind functia cmp implementata in clas Utility.h
+
+Cerinta 3 e)
+Pentru a rezolva aceasta cerinta am folosit un map de frecventa si o functie compare_users implementata in clasa QuerySolver.h
+
+Cerinta 3 f)
+Pentru a rezolva aceasta cerinta am folosit o lista in care am bagat toti utilizatorii premium. Dupa am parcurs lista aceasta pentru a vedea ce utilizatori au cupoane de reducere la telefoane si imprimante si i-am bagat intr-o noua lista, pe care am returnat-o ulterior, avand elemente unice.
+
+Cerinta 4
+M-am folosit de toate resursele puse la dispozitie pe ocw pentru a implementa LRU Cache si pentru a intelege functionalitatea acestuia.
+
+
+
